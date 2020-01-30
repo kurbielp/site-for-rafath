@@ -1,0 +1,19 @@
+@include url("./__title/aside__title.css");
+@include url("./__content/aside__content.css");
+@include url("./__list/aside__list.css");
+.aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: pink;
+    text-align: center;
+}
+@media(max-width: 640px){
+    .aside {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

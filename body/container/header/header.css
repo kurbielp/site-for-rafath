@@ -1,0 +1,13 @@
+@import url("./__content/header__content.css");
+
+.header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+@media(max-width: 640px){
+    .header{
+        grid-column-end: 3;
+    }
+}

@@ -1,0 +1,26 @@
+@import url("./__button/navbar__button.css");
+@import url("./__submit/navbar__submit.css");
+
+.navbar {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center ;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width: 640px){
+    .navbar {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-items: center ;
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

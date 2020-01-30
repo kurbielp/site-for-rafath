@@ -1,0 +1,17 @@
+@import url("./__content/footer__content.css");
+
+.footer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: white;
+}
+@media(max-width: 640px){
+    .footer {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+}
